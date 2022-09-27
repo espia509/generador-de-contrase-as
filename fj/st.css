@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(109, 102, 116);
+}
+h1,h2,p,td{
+    text-decoration: dotted;
+    color: antiquewhite;
+}
+header{
+    text-align: center;
+    padding-top: .5rem;
+    flex: auto;
+}
+input{
+    border-radius: .5rem;
+    text-decoration: solid;
+    border: none;
+    color: azure;
+    background-color: rgb(158, 153, 153);
+}
+#lock:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: text;
+}
+.hd{
+    background-color: rgb(163, 139, 218);
+    border-color: darkgrey;
+    border-radius: 1.5rem;
+    border: .1em;
+    margin: auto 4rem;
+}
+.ope{
+    align-items: center;
+    margin-top: -10%;
+}
+.hole{
+    text-align: center;
+    background-color: rgb(102, 94, 110);
+    padding: 3rem 1rem;
+    border-radius: 6rem;
+    box-shadow: 2rem;
+    box-shadow: none;
+    margin: 8rem;
+}
+.jop{
+    padding: 20% 10%;
+}
+.btn{
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(158, 158, 158);
+    color: rgb(255, 255, 255);
+}
+.btn:hover{
+    color:  rgb(204, 215, 224);
+    background-color:rgb(85, 65, 85);
+    border-radius: 1rem;
+    border: outsetS;
+    cursor: pointer;
+}
+
+p.jop{
+    margin: 1rem;
+}
+
+.trr{
+    text-align: center;
+    border-radius: 1em;
+    background-color: rgb(214, 188, 221);
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 1.5rem;
+}
