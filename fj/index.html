@@ -19,13 +19,14 @@
         <div class="hole">
             <div class="jop">
                 <p>Se generara una Contraseña aleatoria</p>
-                <input type="number" name="Tu Contraseña" id="lock" min="10">
+                <input type="number" onkeyup="mostrar(this.value)" id="lock" min="10" max="30">
                 <button type="submit" id="btn1" class="btn" onclick="passGeneret()">Picale</button>
             </div>
             <div class="trr">
                 <table>
                     <td>
-                        <tr onshow="passGeneret()"></tr>
+                        <tr></tr>
+                        <span id="lot"></span>
                     </td>
                 </table>
             </div>
