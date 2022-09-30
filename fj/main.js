@@ -1,9 +1,8 @@
 const gop = document.getElementById("lot");
-const sho = document.getElementById("lock").vale;
 const pass_gen = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890#$%&/=?@";
 
 
-function passGeneret(length = sho){
+function passGeneret(length = 9){
     
     let result = "";
     for (let i = 0; i <= length; i++) {
@@ -13,7 +12,12 @@ function passGeneret(length = sho){
 }
 
 document.getElementById('btn1').onclick = function(){
+/*    if (sho = 1) {
+        for (let a = 0; a < array.length; a--) {
+            result -= passGeneret();
+            
+        }
+    }*/
+
     gop.innerHTML=passGeneret();
 }
-
-

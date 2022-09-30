@@ -2,7 +2,7 @@ body{
     background-color: rgb(109, 102, 116);
 }
 h1,h2,p,td{
-    text-decoration: dotted;
+    text-decoration: solid;
     color: antiquewhite;
 }
 header{
@@ -16,6 +16,13 @@ input{
     border: none;
     color: azure;
     background-color: rgb(158, 153, 153);
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+}
+span{
+    margin-top: 14rem;
 }
 #lock:hover{
     background-color: aliceblue;
@@ -31,7 +38,8 @@ input{
 }
 .ope{
     align-items: center;
-    margin-top: -10%;
+    margin-top: -5%;
+    padding: 7rem;
 }
 .hole{
     text-align: center;
@@ -50,6 +58,8 @@ input{
     border-radius: 1rem;
     background-color: rgb(158, 158, 158);
     color: rgb(255, 255, 255);
+    padding: 4rem 3rem;
+    size: 1rem;
 }
 .btn:hover{
     color:  rgb(204, 215, 224);
