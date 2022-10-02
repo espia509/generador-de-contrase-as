@@ -12,12 +12,5 @@ function passGeneret(length = 9){
 }
 
 document.getElementById('btn1').onclick = function(){
-/*    if (sho = 1) {
-        for (let a = 0; a < array.length; a--) {
-            result -= passGeneret();
-            
-        }
-    }*/
-
     gop.innerHTML=passGeneret();
 }
